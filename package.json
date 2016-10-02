@@ -1,6 +1,6 @@
 {
   "name": "chunksha",
-  "version": "0.5",
+  "version": "0.5.0",
   "description": "Lib to compute hash of file in the browser ",
   "main": "src/5.js",
   "directories": {
@@ -12,7 +12,8 @@
     "expect.js": "0.3.1"
   },
   "scripts": {
-    "test": "mocha test/index5.js"
+    "test": "mocha test/index5.js",
+    "test-sha256": "mocha test/sha256-test.js"
   },
   "repository": {
     "type": "git",
